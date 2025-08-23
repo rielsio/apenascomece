@@ -47,6 +47,12 @@ a:hover,a:focus,a:visited{
     outline: none;
 }
 
+h1{text-align: center;}
+p{font-style: oblique;}
+p{font-size: large;}
+p{text-align: center;}
+ol{font-size: large;}
+a{text-shadow: rgb(0, 255, 255);}
 
 /* ESSA SEÇÃO CONTROLA A FORMA QUE O LINK DE HIPERTEXTO SE COMPORTA COM A INTERAÇÃO DO USUÁRIO */
 
@@ -72,6 +78,3 @@ main{
         width: 100%;
     }
 }
-
-
-/* ESSA SEÇÃO CONTROLA A VISUALIZAÇÃO E RESPONSIVIDADE DO CÓDIGO */
