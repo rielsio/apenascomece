@@ -1,0 +1,77 @@
+/* CONFIGURAÇÕES GLOBAIS */
+
+*{
+    margin: 2px;;
+    padding: 5px;;
+    box-sizing:content-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* CONFIGURAÇÕES GLOBAIS */
+
+
+/*  */
+
+
+/* ESSA SEÇÃO CONTROLA A POSIÇÃO E COR DO PLANO DE FUNDO E DOS TEXTOS */
+
+#background html, body {background-color:
+    rgba(177, 177, 177, 0.466);
+    color: rgb(0, 0, 0);
+    min-width: 670px;
+    min-height: 0%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+/* ESSA SEÇÃO CONTROLA A POSIÇÃO E COR DO PLANO DE FUNDO E DOS TEXTOS */
+
+
+    /*  */
+
+
+/* ESSA SEÇÃO CONTROLA A FORMA QUE O LINK DE HIPERTEXTO SE COMPORTA COM A INTERAÇÃO DO USUÁRIO */
+    
+
+a{
+    text-decoration: none;
+}
+
+a:hover,a:focus,a:visited{
+    text-decoration: none;
+    outline: none;
+}
+
+
+/* ESSA SEÇÃO CONTROLA A FORMA QUE O LINK DE HIPERTEXTO SE COMPORTA COM A INTERAÇÃO DO USUÁRIO */
+
+
+    /*  */
+
+
+/* ESSA SEÇÃO CONTROLA A VISUALIZAÇÃO E RESPONSIVIDADE DO CÓDIGO */
+
+
+main{
+    width: 60%;
+}
+
+@media screen and (min-width=1378px){
+    main{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width=670px){
+    main{
+        width: 100%;
+    }
+}
+
+
+/* ESSA SEÇÃO CONTROLA A VISUALIZAÇÃO E RESPONSIVIDADE DO CÓDIGO */
