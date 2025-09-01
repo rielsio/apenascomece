@@ -18,8 +18,8 @@
 #background html, body {background-color:
     rgba(177, 177, 177, 0.466);
     color: rgb(0, 0, 0);
-    width: 100vdw
-    height: 100vdh
+    width: 100vw
+    height: 100vh
 
     display: flex;
     flex-direction: column;
@@ -78,4 +78,5 @@ main{
         width: 100%;
     }
 }
+
 
